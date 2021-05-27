@@ -11,6 +11,8 @@ namespace ClassroomTraining.Basics
         private long initialAccountBalance;
         private long accountBalance;
 
+        private List<string> statement = new List<string>();
+
 
 
         public string AccountHolderName
@@ -75,6 +77,7 @@ namespace ClassroomTraining.Basics
             {
                 this.accountBalance += depositAmount;
                 Console.WriteLine("Amount Deposited successfully...");
+                statement.Add($"{DateTime.Now} : Credit of Rs {depositAmount}");
             }
             else
             {
@@ -88,11 +91,23 @@ namespace ClassroomTraining.Basics
             {
                 this.accountBalance -= withdrwAmount;
                 Console.WriteLine("Amount Withdrwal successfully");
+                statement.Add($"{DateTime.Now} : Debit of Rs {withdrwAmount}");
             }
             else
             {
                 Console.WriteLine("Invalid Withdrwal Amount");
             }
+        }
+
+        public void GenerateStatement()
+        {
+            Console.WriteLine("\n-----------------Statement-Starts Here-----------------------------\n");
+            Console.WriteLine($"Account Holder Name is:  {AccountHolderName} \nAccount Number is:  {AccountNumber}");
+            Console.WriteLine($"----------------------------------------------------------------------");
+            foreach (string str in statement) { Console.WriteLine($"{str}\n"); }
+            DisplayCurrentBalance();
+            Console.WriteLine("\n-----------------Statement-Ends Here-----------------------------\n");
+
         }
 
 
