@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace ClassroomTraining.Basics
+{
+    class BankAccountDetails
+    {
+        private int accountnumber;
+        private int accountbalance;
+        private int depositeamount;
+        private int withdrawlamount;
+
+
+        public BankAccountDetails()
+        {
+            accountbalance = 5000;
+            depositeamount = 2000;
+        }
+
+
+        public int AccountBalanace(int accountbalance, int depositeamount)
+        {
+            accountbalance += depositeamount; 
+            Console.WriteLine($"The Deposited amount is ----> {depositeamount}");
+            Console.WriteLine($"The New Account Balance is ----> {accountbalance}");
+            return accountbalance;
+        }
+
+        public int WithdrawMoney(int balance, int moneytowithdraw)
+        {
+            if (balance >= 0)
+            {
+                balance -= moneytowithdraw;
+                Console.WriteLine($"The withdrawl amount ----> {moneytowithdraw}");
+                Console.WriteLine($"The Account Balance after withdrawl is ----> {balance}");
+            }
+            else
+            {
+                Console.WriteLine("No suffient money to withdraw");
+            }
+            return balance;
+        }
+
+        public int PrintAccountBalance(int balance)
+        {
+            Console.WriteLine("This is the current balance : {0}", balance); //Prints the accounts current balance
+        }
+
+    }
+}

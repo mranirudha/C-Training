@@ -1,0 +1,13 @@
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\bin\Debug\netcoreapp3.1\ClassroomTraining.exe
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\bin\Debug\netcoreapp3.1\ClassroomTraining.deps.json
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\bin\Debug\netcoreapp3.1\ClassroomTraining.runtimeconfig.json
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\bin\Debug\netcoreapp3.1\ClassroomTraining.runtimeconfig.dev.json
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\bin\Debug\netcoreapp3.1\ClassroomTraining.dll
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\bin\Debug\netcoreapp3.1\ClassroomTraining.pdb
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\obj\Debug\netcoreapp3.1\ClassroomTraining.csproj.AssemblyReference.cache
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\obj\Debug\netcoreapp3.1\ClassroomTraining.AssemblyInfoInputs.cache
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\obj\Debug\netcoreapp3.1\ClassroomTraining.AssemblyInfo.cs
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\obj\Debug\netcoreapp3.1\ClassroomTraining.csproj.CoreCompileInputs.cache
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\obj\Debug\netcoreapp3.1\ClassroomTraining.dll
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\obj\Debug\netcoreapp3.1\ClassroomTraining.pdb
+C:\Users\UJ56\source\repos\ClassroomTraining\ClassroomTraining\obj\Debug\netcoreapp3.1\ClassroomTraining.genruntimeconfig.cache
