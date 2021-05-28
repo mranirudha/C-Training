@@ -37,10 +37,11 @@ namespace ClassroomTraining.Basics
                     case 'a':
                         bankAccountDetails.DisplayCurrentBalance();
                         break;
+
                     case 'b':
                         Console.WriteLine("Enter the Deposit Amount\n");
                         long credit = Convert.ToInt64(Console.ReadLine());
-                        bankAccountDetails.DepositAmount(de);
+                        bankAccountDetails.DepositAmount(credit);
                         break;
 
                     case 'c':

@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	  <RootNamespace>ClassroomTraining</RootNamespace>
-	  <StartupObject>ClassroomTraining.Basics.AccountCalculation</StartupObject>
+	  <StartupObject>ClassroomTraining.BankApplication.DemoBankAccount</StartupObject>
 	 
   </PropertyGroup>
 
